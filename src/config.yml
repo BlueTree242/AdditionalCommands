@@ -1,0 +1,49 @@
+####################################################################################################
+# 
+# 
+#
+# 
+# 
+#                                          AdditionalCommands
+#
+#                                        Thanks for downloading
+# 
+#                                         Slide down to config!
+# 
+# 
+# 
+#
+# 
+# 
+# +----------------------------------------------------------------------------------------------
+
+prefix: '&7[&eAC&7]'
+
+default-no-permission-message: '%prefix% &2Running &bAdditionalcommands v%plugin_version% '
+
+startup-messages: true
+
+
+# reload the config by /additionalcommands reload
+#That is my first plugin
+
+# /website command config:
+
+website:
+  message: '&cEdit this in config.yml'
+  permission: 'additionalcommands.command.website.use'
+  no-permission-message: '&cYou cannot use this command (Edit in config.yml).'
+
+  
+ # /discord command config:
+ 
+discord:
+  message: '&cEdit this in config.yml'
+  permission: 'additionalcommands.command.discord.use'
+  no-permission-message: '&cYou cannot use this command (Edit in config.yml).'
+  
+  
+youtube:
+   meessage: '&cEdit this in config.yml'
+   permission: 'additionalcommands.command.youtube.use'
+   no-permission-message: '&cYou cannot use that command (Edit in config.yml).'
